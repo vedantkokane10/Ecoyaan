@@ -1,0 +1,116 @@
+
+.InfoCard{
+    font-family: 'Poppins';
+}
+
+.content{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.home{
+    background-image:  linear-gradient(#929292 0.4px, transparent 0.4px), linear-gradient(to right, #929292 0.4px, #fdfdfd 0.4px);
+    background-size: 8px 8px;
+    background-color: #fdfdfd;
+    background-image:  linear-gradient(#eee8e8 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, #eee8e8 0.6000000000000001px, #fdfdfd 0.6000000000000001px);
+    background-size: 12px 12px;
+}
+
+.contact-us{
+    color: white;
+    font-size: large;
+    background-color: #16A349;
+    border: none;
+    padding-top: 8px;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.slider-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 160px;
+    margin-bottom: 100px;
+}
+
+.slider-info h2{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.sliderButtonStyle{
+    color: white;
+    font-size: large;
+    background-color: #16A349;
+    border: none;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.slider-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.slider-info h2{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.sliderButtonStyle{
+    color: white;
+    font-size: 1.2rem;
+    background-color: #16A349;
+    border: none;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+@media (max-width: 768px) {
+    .slider-info {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .slider-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .slider-info p {
+        font-size: 1rem;
+}
+
+    .sliderButtonStyle {
+        font-size: 1rem;
+    }
+}
